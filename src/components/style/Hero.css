@@ -1,0 +1,41 @@
+.hero {
+  background: url("../../img/background-home2.webp") no-repeat center
+    center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 9rem 2rem;
+}
+
+.heroAll {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroAll h2{
+    font-weight: 600;
+}
+
+.hero .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.hero .buttons .button {
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #e67e22;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .buttons .button.secondary {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.heroAll p{
+    font-size: 1rem;
+}

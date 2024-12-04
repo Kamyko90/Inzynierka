@@ -1,0 +1,189 @@
+.statistics-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .date-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .date-picker input[type="date"] {
+    padding: 5px;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .stats-graph {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #fff;
+    width: calc(50% - 16px);
+  }
+
+  .stats-graph canvas{
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .statistics-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .month-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .month-picker input[type="month"] {
+    padding: 5px;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+  }
+
+  
+.month-picker {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .month-picker label {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .month-picker select {
+    padding: 10px;
+    background-color: #1abc9c; 
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    width: 180px; 
+  }
+  
+  .month-picker select:hover {
+    background-color: #16a085;
+    outline: none;
+  }
+  
+  .month-picker select:focus {
+    outline: none;
+    background-color: #16a085;
+  }
+
+  .stats-wrapperDane{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+  }
+  
+
+  .date-slider {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-radius: 8px;
+  }
+  
+  .date-sliderStatistics{
+    position: relative;
+  }
+
+  .swiperStatistic {
+    padding: 10px;
+    max-width: 90%;
+  }
+  
+  .date-slide {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background: #34495e;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+  
+  .date-slide.active {
+    background: #1abc9c;
+    color: #fff;
+  }
+  
+  .date-slide:hover {
+    background: #16a085;
+  }
+
+.swiper-navigation-prev,
+.swiper-navigation-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 32px;
+  cursor: pointer;
+  color: #fff;
+  transform: translateY(-50%);
+  padding: 10px;
+  display: flex;
+}
+
+.swiper-navigation-prev {
+  left: 10px;
+}
+
+.swiper-navigation-next {
+  right: 10px;
+}
+
+.progress-bar-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+}
+
+.progress-bar-text {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.stats-macros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(50% - 16px);
+}
+
+.stats-macros .macro-item{
+  width: 100%;
+}

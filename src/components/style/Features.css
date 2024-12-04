@@ -1,0 +1,42 @@
+.features {
+  background: #f4f4f4;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: stretch; /* Zapewnia równe rozciąganie elementów na równą wysokość */
+}
+
+.feature {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Wszystkie elementy rozciągają się równomiernie */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto; /* Automatyczna wysokość w zależności od zawartości */
+}
+
+.feature img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.feature h4 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: auto; /* Zapewnia, że tekst w dolnej części nie będzie wpływał na inne elementy */
+}

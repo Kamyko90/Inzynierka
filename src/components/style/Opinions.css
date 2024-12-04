@@ -1,0 +1,26 @@
+.opinions-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .opinion {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .rating .star {
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: #000; 
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #000;
+  }
+  
+  

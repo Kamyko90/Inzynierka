@@ -1,0 +1,132 @@
+.RegisterFormAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100svh;
+    background: url('../../img//background-home2.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.RegisterFormAll .wrapper{
+    width: 100%;
+    max-width: 420px;
+    border: 2px solid #1abc9c;
+    box-shadow: 0 0 10px #1abc9c;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(5px);
+}
+
+.RegisterFormAll .wrapper h1{
+    text-align: center;
+}
+
+.RegisterFormAll .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.RegisterFormAll .wrapper .input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #1abc9c;
+    border-radius: 40px;
+    font: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.RegisterFormAll .wrapper .input-box input::placeholder{
+    color: #fff;
+}
+
+.RegisterFormAll .wrapper .input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.RegisterFormAll .wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.RegisterFormAll .wrapper .remember-forgot label{
+ accent-color: #fff;   
+ margin-right: 4px;
+}
+
+.RegisterFormAll .wrapper .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.RegisterFormAll .wrapper .remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.RegisterFormAll .wrapper button{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #000;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.RegisterFormAll .wrapper .register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.RegisterFormAll .wrapper .register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 600;
+}
+
+.RegisterFormAll .wrapper .register-link p a:hover{
+    text-decoration: underline;
+}
+
+.RegisterFormAll .wrapper .checkbox-container {
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: left;
+  }
+  
+  .RegisterFormAll .wrapper .checkbox-container label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+  }
+  
+  .RegisterFormAll .wrapper .checkbox-container a {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  
+  .RegisterFormAll .wrapper .checkbox-container a:hover {
+    text-decoration: underline;
+  }
+  
